@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.topCard {
+    margin-top: 50px;
+}
+
+.topRastreio {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.topContainer {
+    margin-top: 80px;
+}
+
+.topFooter {
+    margin-top: 200px;
+}

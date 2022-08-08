@@ -1,0 +1,27 @@
+  /* NAVBAR */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+
+  }
+
+  body {
+      font-family: 'Montserrat', sans-serif;
+      background: #fff;
+  }
+
+  nav {
+      background: #000;
+      height: 88px;
+      width: 100%;
+      border: none;
+  }
+
+  .logo {
+    padding: 10px;
+  }

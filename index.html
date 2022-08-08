@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@empresa</title>
+
+    <link rel="shortcut icon" href="https://infordoc.com.br/assets/img/favicon2.png" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/c2f280fa97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <nav>
+        <img class="img-fluid rounded mx-auto d-block logo"
+            src="https://grupotaff.com.br/wp-content/uploads/2021/04/logo-taff.png" />
+    </nav>
+    <!--FIM NAVBAR-->
+
+    <!--TITULO-->
+    <div class="card-body topRastreio">
+        <h6>Rastreio NF: 000032417 - Série: 001</h6>
+    </div>
+
+    <!--INICIO TIMELINE-->
+    <div class="container-fluid topContainer">
+        <h1>PROCESSOS</h1>
+
+        <div class="process-wrapper">
+            <div id="progress-bar-container">
+                <ul>
+                    <li class="step step01 active">
+                        <div class="step-inner">PROCESSO INICIADO</div>
+                    </li>
+                    <li class="step step02">
+                        <div class="step-inner">EM CARREGAMENTO</div>
+                    </li>
+                    <li class="step step03">
+                        <div class="step-inner">TRANSFERÊNCIA ENTRE FILIAIS</div>
+                    </li>
+                    <li class="step step04">
+                        <div class="step-inner">PROCESSO DE ENTREGA</div>
+                    </li>
+                    <li class="step step05">
+                        <div class="step-inner">MERCADORIA ENTREGUE</div>
+                    </li>
+                </ul>
+                <div id="line">
+                    <div id="line-progress"></div>
+                </div>
+            </div>
+        </div>
+        <!--FIM TIMELINE-->
+    </div>
+
+    <div class="container-fluid topContainer">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-striped">
+                <!--Table head-->
+                <tbody>
+                    <tr>
+                        <th class="cb1">CT-e</th>
+                        <th class="cb1">Data de Emissão</th>
+                        <th class="cb2">Tipo de CT-e</th>
+                        <th class="cb1">Data e Hora de Ocorrência</th>
+                        <th class="cb2">Ocorrência</th>
+                        <th class="cb3">Complemento</th>
+                        <th class="cb4">Comprovante</th>
+                    </tr>
+                    </thead>
+
+                <tbody class="fontfamily">
+                    <tr>
+                        <td class="cd1">301647 </td>
+                        <td class="cd1">05/07/2022</td>
+                        <td class="cd1">EMBARQUE</td>
+                        <td class="cd1">19/07/2022 09:03</td>
+                        <td class="cd2">SERVICO REALIZADO NORMALMENTE</td>
+                        <td class="cd3"></td>
+                        <td class="cd4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd1">301647 </td>
+                        <td class="cd1">05/07/2022</td>
+                        <td class="cd1">EMBARQUE</td>
+                        <td class="cd1">19/07/2022 05:00</td>
+                        <td class="cd2">EM CARREGAMENTO</td>
+                        <td class="cd3">MANIFESTO: 73515 MOTORISTA: LUIZ ANTONIO DE PAULA TIPO MANIFESTO:
+                            DISTRIBUIÇÃO PLACA: KPL4E34</td>
+                        <td class="cd4"></td>
+                    </tr>
+                    <tr>
+                        <td class="cd1">301647 </td>
+                        <td class="cd1">05/07/2022</td>
+                        <td class="cd1">EMBARQUE</td>
+                        <td class="cd1">19/07/2022 05:00</td>
+                        <td class="cd2">EM ROTA</td>
+                        <td class="cd3"></td>
+                        <td class="cd4"></td>
+                    </tr>
+                    <tr>
+                        <td class="cd1">301647 </td>
+                        <td class="cd1">05/07/2022</td>
+                        <td class="cd1">EMBARQUE</td>
+                        <td class="cd1">05/07/2022 08:40</td>
+                        <td class="cd2">MERCADORIA RECEBIDA</td>
+                        <td class="cd3"></td>
+                        <td class="cd4"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </section>
+    </div>
+    
+<footer class="topFooter">
+     <img src="https://apps.triforsys.com.br/Tracking%20TAFF/_imagens/logo-triforsys.png" class="imagem rounded mx-auto d-block" alt="...">
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./timeline.js"></script>
+</body>
+
+</html>
