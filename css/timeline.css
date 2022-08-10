@@ -47,12 +47,12 @@
         content: " ";
         display: block;
         margin: auto;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border: solid 2px #aaa;
         transition: all ease 0.3s;
-
+        
     }
 
     #progress-bar-container li.active:before,
@@ -74,7 +74,7 @@
         font-weight: 700;
         transition: all ease 0.2s;
         vertical-align: bottom;
-        height: 60px;
+        height: 80px;
         position: relative;
         
     }
