@@ -187,7 +187,21 @@
             width: 100%;
             bottom: 0;
             font-size: 9px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+        }
+
+        .iconSize {
+            font-size: 35px;
+        }
+    }
+
+    @media (min-width: 200px) and (orientation: portrait) { 
+        #progress-bar-container li .step-inner {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            font-size: 9px;
+            margin-bottom: 5px;
         }
 
         .iconSize {
