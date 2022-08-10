@@ -24,3 +24,14 @@ body {
 .topFooter {
     margin-top: 200px;
 }
+
+.block {
+    pointer-events: none;
+}
+
+.buttonComp {
+    border: solid 1px gray;
+    border-radius: 6px;
+    width: 100%;
+    
+}
