@@ -183,10 +183,6 @@
 
     @media (min-width: 500px) and (orientation: portrait) { 
 
-        #progress-bar-container {
-            
-        }
-
         #progress-bar-container li .step-inner {
             position: absolute;
             width: 100%;
