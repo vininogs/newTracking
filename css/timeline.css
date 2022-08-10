@@ -181,6 +181,15 @@
         }
     }
 
-    @media (min-width: 1000px) and (orientation: portrait) { 
-        
+    @media (min-width: 500px) and (orientation: portrait) { 
+        #progress-bar-container li .step-inner {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            font-size: 9px;
+        }
+
+        .iconSize {
+            font-size: 35px;
+        }
     }
