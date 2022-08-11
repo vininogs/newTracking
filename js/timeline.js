@@ -14,7 +14,7 @@
     });
     
     $(".step03").click( function() {
-        $("#line-progress").css("width", "50%");
+        $("#line-progress").css("width","50%");
         $(".creative").addClass("active").siblings().removeClass("active");
     });
     

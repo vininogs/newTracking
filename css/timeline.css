@@ -17,6 +17,10 @@
         font-weight: 700;
     }
 
+    .loading {
+        width: 40px;
+    }
+
     /* --- Start progress bar --- */
 
 
