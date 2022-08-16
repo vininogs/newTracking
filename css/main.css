@@ -35,3 +35,14 @@ body {
     width: 100%;
     
 }
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+}
+
+.date p {
+    margin-top: 80px;
+    font-size: 12px;
+}

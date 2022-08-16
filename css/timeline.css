@@ -124,6 +124,7 @@ h6 {
     transition: all ease 0.9s;
 }
 
+
 #progress-bar-container #line-progress {
     content: " ";
     width: 3%;
@@ -246,6 +247,10 @@ h6 {
     .iconSize {
         font-size: 35px;
     }
+
+    .date p {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 480px) and (orientation: portrait) { 
@@ -260,4 +265,9 @@ h6 {
     .iconSize {
         font-size: 35px;
     }
+
+    .date p {
+        font-size: 10px;
+    }
+
 }
